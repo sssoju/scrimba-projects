@@ -9,9 +9,7 @@
     --hover2: rgb(48, 60, 97);
     --font1: black;
     --font2: beige;
-
 }
-
 html {
     background-image: url("background.jpg");
     background-repeat: no-repeat;
@@ -34,7 +32,6 @@ html, body {
     overflow: hidden;
     flex-wrap: wrap;
 }
-
 .container {
     background-color: var(--container1);
     width: 200px;
@@ -60,7 +57,6 @@ html, body {
     margin: 20px auto 20px auto;
     padding: 10px;
 }
-
 #increment-btn, #save-btn {
     color: var(--font2);
     font-weight: bold;
@@ -82,7 +78,6 @@ html, body {
 #save-btn:hover {
     background-color: var(--hover2);
 }
-
 #count-el, #save-el {
     font-family: 'Courier New', Courier, monospace;
 }
